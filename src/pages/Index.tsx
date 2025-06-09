@@ -1,9 +1,8 @@
 
-import LyricsViewer from '@/components/LyricsViewer';
-import { sampleLyrics } from '@/data/sampleLyrics';
+import BirthdayCountdown from '@/components/BirthdayCountdown';
 
 const Index = () => {
-  return <LyricsViewer lyrics={sampleLyrics} />;
+  return <BirthdayCountdown />;
 };
 
 export default Index;
